@@ -41,3 +41,4 @@ fruits.pop();
 console.log(fruits);
 console.log(Array.isArray(fruits));
 console.log(Array.isArray("apple"));
+console.log(fruits.indexOf('Water Melon'));
