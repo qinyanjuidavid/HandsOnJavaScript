@@ -17,9 +17,12 @@ var m=100;
 for(m;m>0;m--){
   console.log(m);
 }
+let t=0;
+for(t;t<=10;t++){
+  console.log(t);
+}
 
-for(var t=0;t<100;t++){
-  for(var l=t;l=100;t++){
-    console.log("*")
-  }
+let trial=0;
+for(trial;trial<=10;trial++){
+  console.log("For Loop Number:"+trial);
 }
