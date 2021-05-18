@@ -61,3 +61,56 @@ const todos=[
 for(let todo=0;todo<todos.length;todo++){
   console.log(todos[todo].text);
 }
+
+
+const company=[
+  {
+    name:"John Doe",
+    age:35,
+    department:"IT Department",
+    salary:35000
+  },
+  {
+    name:"Jane Doe",
+    age:33,
+    department:"Human Resource",
+    salary:38000
+  },
+  {
+    name:"Jamie Saint Patrick",
+    age:38,
+    department:"Managerial",
+    salary:40000
+  }
+];
+for(let c=0;c<company.length;c++){
+  console.log(company[c].name);
+}
+
+
+
+
+const newCompany=[
+  {
+    name:"John Doe",
+    age:35,
+    department:"IT Department",
+    salary:35000
+  },
+  {
+    name:"Jane Doe",
+    age:33,
+    department:"Human Resource",
+    salary:38000
+  },
+  {
+    name:"Jamie Saint Patrick",
+    age:38,
+    department:"Managerial",
+    salary:40000
+  }
+];
+
+for(s of newCompany){
+  console.log(s.salary);
+}
