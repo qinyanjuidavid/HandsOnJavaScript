@@ -75,3 +75,6 @@ console.log(typeof Company);
 console.log(Company.length);
 console.log(Company[1]);
 console.log(Company[1].name);
+//Changing to JSON
+const JSONCompany=JSON.stringify(Company);
+console.log(JSONCompany);
