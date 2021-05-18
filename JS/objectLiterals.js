@@ -48,3 +48,30 @@ console.log(todos);
 console.log(todos[1]);
 console.log(todos[1].text);
 console.log(todos[1].isCompleted)
+const todoJSON=JSON.stringify(todos);
+console.log(todoJSON);
+
+const Company=[{
+  name:"John Doe",
+  department:"Human Resource",
+  age:37,
+  salary:23000,
+},
+{
+  name:"Jane Doe",
+  department:'Accounting',
+  age:33,
+  salary:20000
+},
+{
+  name:"Jamie Saint Patrick",
+  department:"Management",
+  age:38,
+  salary:30000
+}
+]
+console.log(Company);
+console.log(typeof Company);
+console.log(Company.length);
+console.log(Company[1]);
+console.log(Company[1].name);
