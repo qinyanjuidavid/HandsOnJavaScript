@@ -26,3 +26,16 @@ let trial=0;
 for(trial;trial<=10;trial++){
   console.log("For Loop Number:"+trial);
 }
+//while Loops
+let x=0;
+
+while(x<10){
+  console.log("While Loop Number:"+x);
+  x++;
+}
+
+let z=10;
+while(z>0){
+  console.log("While Loop Inverse Number:"+z);
+  z--;
+}
