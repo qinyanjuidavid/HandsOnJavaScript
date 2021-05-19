@@ -128,5 +128,7 @@ console.log(companyName);
 //filter
 const filterAge=newCompany.filter(function(a){
   return a.age>30;
+}).map(function(n){
+  return n.name;
 });
 console.log(filterAge);
