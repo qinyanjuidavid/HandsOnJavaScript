@@ -121,3 +121,7 @@ newCompany.forEach(function(c){
 });
 
 //map
+const companyName=newCompany.map(function(t){
+  return t.name;
+});
+console.log(companyName);
