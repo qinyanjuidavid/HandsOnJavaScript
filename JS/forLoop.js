@@ -114,3 +114,10 @@ const newCompany=[
 for(s of newCompany){
   console.log(s.salary);
 }
+//High order array
+//forEach
+newCompany.forEach(function(c){
+  console.log(c.age);
+});
+
+//map
