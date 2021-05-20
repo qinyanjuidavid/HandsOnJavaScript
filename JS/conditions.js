@@ -75,3 +75,9 @@ else if(n>0){
 else{
   console.log("Invalid Entry.");
 }
+//Or ||
+const m=4;
+const y=11;
+if(m>5||y>10){
+  console.log('m is more than 5 or y is more than 10');
+}
