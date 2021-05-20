@@ -61,3 +61,17 @@ else if(avg>=0 && avg <=4){
 else{
   console.log("Invalid Marks");
 }
+//Recarp
+const n=-10;
+if(n===0){
+  console.log("The number is a zero.");
+}
+else if(n<0){
+  console.log("The number is negative.");
+}
+else if(n>0){
+  console.log("The number is positive");
+}
+else{
+  console.log("Invalid Entry.");
+}
