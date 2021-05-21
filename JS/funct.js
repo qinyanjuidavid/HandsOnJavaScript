@@ -8,3 +8,9 @@ function SubNumbers(n1=1,n2=2){
   console.log(n2-n1);
 }
 SubNumbers();
+
+//Returning
+function MultiplyNumbers(m1,m2){
+  return m1*m2;
+}
+console.log(MultiplyNumbers(5,5));
